@@ -12,21 +12,25 @@ This is the first challenge in your Advanced Programming Class.
 Build Requirements
 ------------------
 ```
-# Build Requirements here
+
+This first challenge is completed using Java, so it can be compiled using Java 14, which was what I used on IntelliJ. Other Java versions may work but have not been tested.
 ```
 
 
 How to build
 ------------
 ```
-# instructions here
+Compile as a standard Java program.
 ```
 
 
 How to Run
 ----------
 ```
-# instructions here
+The input is created in the Main class, however, the actual counting functionality is in the 'count' method. At this moment it was not designed as an object oriented, as we can see from the static access.
+
+The program will count all the elements on an arraylist of integer arrays, even if they are different sizes. (demo includes sizes of 4,3,2,1), it can count also single numbers but when added to the array list they have to be added by casting it to a new temp int array. Example:  test.add(new int[]{100});. Adding it as an int directly will now work.
+
 ```
 
 
