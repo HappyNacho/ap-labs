@@ -261,11 +261,13 @@ void writeR2(int inputFd, int outputFd){
     //hashing the name of the package to get the ID/Key for the table
     int a = hashName("linux-api-headers");
     int b = hashName("libnetfilter_conntrack");
+    int c = hashName("mkinitcpio-busybox");
     
     //printf("%i", a);
     
     insert(a, "linux-api-headers", "2019-04-16 11:32","2019-04-17 11:33", 0, "2019-04-18 11:34");
     insert(b, "libnetfilter_conntrack", "2020-04-16 11:32","2020-04-17 11:33", 2, "-");
+    insert(c, "mkinitcpio-busybox", "2018-04-16 11:32","2018-04-17 11:33", 5, "-");
 
     //will save and print in console every package saved
     int i;
