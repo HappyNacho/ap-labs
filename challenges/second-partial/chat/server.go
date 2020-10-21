@@ -66,7 +66,7 @@ func broadcaster() {
 			if len(clients) == 0 {
 				cS.client <- serverNewLine + "Congrats, you were the first user."
 				cS.client <- serverNewLine + "You're the new IRC Server ADMIN"
-				fmt.Printf("[%s] was promoted as the channel ADMIN\n", adminUser)
+				fmt.Printf("irc-server >[%s] was promoted as the channel ADMIN\n", adminUser)
 				admin = cS.client
 			}
 
