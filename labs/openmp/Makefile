@@ -18,4 +18,4 @@ $(TARGET):  %: %.c logger random
 clean:
 	rm -f $(OBJFILES) $(TARGET) *~
 
-include ../common.mk
+include ../..common.mk
