@@ -1,3 +1,7 @@
+
+include ../../common.mk
+
+
 ENEMIES = 1
 
 build:
